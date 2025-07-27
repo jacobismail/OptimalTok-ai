@@ -1,3 +1,5 @@
+import os
+os.environ["STREAMLIT_WATCH_DIRECTORIES"] = "false"
 import streamlit as st
 from pages.Home import show_home
 from pages.Music import show_music
